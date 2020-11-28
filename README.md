@@ -1,6 +1,6 @@
 <h1>Inheritable Threadlocal</h1>
 
-This example project demonstrates how an Inheritable Threadlocal variable persists in child threads as an <b>Inherited</b> Thread Local varibale, and when this is cleared in the Main thread, it does not affect the Threadlocal value in the child threads.
+This example project demonstrates how an Inheritable Threadlocal variable persists in child threads even when this is cleared in the Main thread. It does not affect/change the Threadlocal value in the child threads.
 
 For example:
 1. Main Thread initializes a Threadlocal context.
